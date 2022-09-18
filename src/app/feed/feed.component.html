@@ -1,1 +1,17 @@
-<p>feed works!</p>
+<!-- Use two different comps for feed and status
+use a service to take data from status, create
+element on feed, post data to firebase -->
+<article class='post'>
+    <p>users[1].userName</p>
+    <button>Follow!</button>
+    <p class='meat'>users[1].posts[post].post</p> 
+    <input type='text' id='hiddenEdit'>
+    <div class='analytics'>
+        <p> users[1].posts[post].likes Likes</p>
+        <p> users[1].posts[post].dislikes Dislikes"</p>
+    </div>
+    <button id='callBox' onClick= 'onCall(this)'>Edit</button>
+    <button id='edit' onClick= 'onConfirm(this)'>Confirm</button>
+    <button id='cancel' onClick= 'onCancel(this)'>Cancel</button>
+    <button id='delete'>"Delete</button>
+</article>
