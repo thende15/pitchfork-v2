@@ -1,0 +1,24 @@
+#banner {
+    background-color: #973f3f;
+    color: #Cae298;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3rem;
+    /*width: 100vw;*/
+    z-index: -1;
+    margin-top: 0%;
+}
+
+#site_intro {
+    justify-items: center;
+    text-align: center;
+}
+#search_bar {
+    z-index: 1;
+    border-radius: 10px;
+    
+    margin: 0rem;
+    padding: 0rem;
+}
