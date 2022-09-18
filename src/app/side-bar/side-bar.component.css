@@ -1,0 +1,42 @@
+.side_content {
+    flex-direction: column;
+    width: 20vw;
+}
+.profile {
+    background-color: #5c3f3f;
+    color: #Cae298;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    width: 7rem;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profile_image {
+    border: 2px;
+    border-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+nav {
+    background-color: #5c3f3f;
+    color: #Cae298;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    width: 7rem;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-items: space-between;
+}
+li:hover {
+    color: azure;
+}
